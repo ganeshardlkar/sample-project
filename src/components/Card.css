@@ -1,0 +1,39 @@
+.card {
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    
+}
+
+img {
+    width: 248px;
+    height: 200px;
+    /* object-fit: cover; */
+}
+
+.outer-card {
+    position: absolute;
+}
+
+.home {
+    position: relative;
+    display: inline-table;
+    grid-template-columns: auto auto auto;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.title {
+    padding: 0px 0px 2px 5px;
+}
